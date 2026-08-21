@@ -1,7 +1,3 @@
-# Esp32-Cam-Automatic-Number-Plate-Recognition
-ESP32-CAM based Automatic Number Plate Recognition (ANPR) system that captures vehicle images, processes the number plate using a cloud-based recognition service, and displays the recognized license plate number on an OLED display.
-# ESP32-CAM Automatic Number Plate Recognition (ANPR)
-
 ## 📌 Project Overview
 
 This project implements an **Automatic Number Plate Recognition (ANPR)** system using an **ESP32-CAM**. The camera captures an image of a vehicle's number plate and sends it through a secure HTTPS connection to the CircuitDigest cloud API. The cloud server processes the image using machine-learning-based recognition and returns the detected number plate information.
